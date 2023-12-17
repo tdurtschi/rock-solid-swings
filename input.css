@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    color: theme('colors.gray.200');
+    font-family: "Lato", "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 300;
+}
