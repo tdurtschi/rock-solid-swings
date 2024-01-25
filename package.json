@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./dist/output.css",
+    "postbuild": "cp *.html *.ico out/ && cp -R photos dist out/",
     "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch",
     "serve": "node scripts/serve.js",
     "dev": "npm-run-all -p serve watch"
