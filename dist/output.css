@@ -578,6 +578,16 @@ video {
   margin: auto;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -622,9 +632,18 @@ video {
   border-top-width: 4px;
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
 .border-t-lime-600 {
   --tw-border-opacity: 1;
   border-top-color: rgb(101 163 13 / var(--tw-border-opacity));
+}
+
+.border-b-lime-600 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(101 163 13 / var(--tw-border-opacity));
 }
 
 .bg-stone-200 {
